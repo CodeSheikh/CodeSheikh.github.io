@@ -14,9 +14,9 @@
 	--main-color: #9DAAF2;
 	--second-color: #FFF;
 	--other-color: #12141c;
-	--h1-font: 5.2rem;
-	--h2-font: 3.5rem;
-	--p-font: 1.1rem;
+	--h1-font: 4rem;
+	--h2-font: 3rem;
+	--p-font: 1rem;
 }
 body{
 	background: var(--bg-color);
@@ -33,7 +33,7 @@ header{
 	justify-content: space-between;
 	background: transparent;
 	padding: 22px 16%;
-	border-bottom: 1px solid transparent;
+	border-bottom: 4px solid transparent;
 	transition: all .40s ease;
 }
 
@@ -118,8 +118,9 @@ header.sticky{
 .about{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	align-items: center;
-	gap: 2rem;
+    align-items: center;
+	text-align: center;
+	gap: 0.5rem;
 }
 .about-text h4{
 	margin: 10px 0;
@@ -141,7 +142,7 @@ header.sticky{
 	grid-template-columns: repeat(auto-fit, minmax(250px, auto));
 	align-items: center;
 	gap: 1rem;
-	margin-bottom: 3rem;
+	margin-bottom: normal;
 }
 .about-in h5{
 	font-size: 22px;
