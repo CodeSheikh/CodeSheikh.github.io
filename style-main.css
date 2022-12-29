@@ -4,7 +4,9 @@
 	--main-color: #9DAAF2;
 	--second-color: #FFF;
 	--other-color: #12141c;
-	
+	--h1-font: 4rem;
+	--h2-font: 3rem;
+	--p-font: 1rem;
 }
 
 body{
