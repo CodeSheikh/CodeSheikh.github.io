@@ -1,0 +1,17 @@
+:root{
+	--bg-color: #1A2238;
+	--text-color: #FFFFFF;
+	--main-color: #9DAAF2;
+	--second-color: #FFF;
+	--other-color: #12141c;
+	
+}
+
+body{
+	background: var(--bg-color);
+	color: var(--text-color);
+}
+
+span{
+    color: var(--main-color);
+}
