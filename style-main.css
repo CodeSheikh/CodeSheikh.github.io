@@ -4,10 +4,10 @@
 	--main-color: #9DAAF2;
 	--second-color: #FFF;
 	--other-color: #12141c;
-	--h1-font: 4rem;
-	--h2-font: 3rem;
-	--h3-font: 2rem;
-	--p-font: 1rem;
+	--h1-font: 8rem;
+	--h2-font: 6rem;
+	--h3-font: 4rem;
+	--p-font: 2rem;
 	font-family: 'Quicksand', sans-serif;
 }
 
@@ -26,17 +26,15 @@ span{
     color: var(--main-color);
 }
 
-
-
 .box{
 	background-color: #12141c;
 	padding: 50px;
 	box-sizing: border-box;
 	text-align: center;
-  	width: 650px;
+  	width: 600px;
   	border: 10px;
- 	
-  	margin: 20px;
+  	margin: 15px;
+	cursor: pointer;
 
 }
 
