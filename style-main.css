@@ -40,7 +40,7 @@ span{
 
 }
 
-.go-top-btn{
+#buttonTop{
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
@@ -54,11 +54,11 @@ span{
 	justify-content: center;
 	align-items: center;
 }
-.go-top-btn:active{
-	background: #8e9df2;
+#buttonTop:active{
+	background: #acb6ec;
 }
 
-.go-top-btn img{
+#buttonTop img{
 	width: 25px;
 	height: 25px;
 

@@ -1,20 +1,21 @@
-const goTopBtn = document.querySelector('.go-top-btn');
- 
-window.addEventListener('scroll', checkHeight)
+//Get the button
+let mybutton = document.getElementById("buttonTop");
 
-function checkHeight(){
-    if(window.scrollY > 200){
-        goTopBtn.style.display = "flex"
-    } else{
-        goTopBtn.style.display = "none"
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+
+function scrollFunction(){
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "flex";
+    } else {
+        mybutton.style.display = "none";
     }
 }
 
-goTopBtn.addEventListener('click' , () => {
-    window.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: "smooth"
-    })
-})
+// When the user clicks on the button, scroll to the top of the document
 
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; //For Chrome, Firefox, IE and Opera
+}
