@@ -19,6 +19,11 @@ body{
 	text-align: center;
 }
 
+.content {
+	max-width: 500px;
+	margin: auto;
+}
+
 .about-text h2{
 	font-size: var(--h2-font);
 	text-align: center;
