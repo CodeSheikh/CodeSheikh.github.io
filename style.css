@@ -19,6 +19,11 @@ body{
 	text-align: center;
 }
 
+.Asim-img {
+	width: 300px;
+	height: auto;
+}
+
 .content {
 	max-width: 500px;
 	margin: auto;
