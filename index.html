@@ -1,222 +1,148 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Personal portfolio website design</title>
-	<!---custom css link--->
-	<link href="style.css" rel="stylesheet" type="text/css"/>
+    <head>
+        <title>Personal portfolio website design</title>
+        <meta charset="utf-8">
+        <script src="script.js"></script>
 
-	<link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <!--Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Source+Code+Pro:ital@1&display=swap" rel="stylesheet">
+        <!---custom css link--->
+	<link rel="stylesheet" href="style.css" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
 
-</head>
-<body>
+    <body>
+        
+        <button onclick="topFunction()" id="buttonTop" title="Go to top">
+            <img src="angles-up-solid.png" alt="arrow up">
+        </button>
 
-	<!---header--->
-	<header>
-		<a href="#" class="logo"><img src="img/logo.png"></a>
-		<div class="bx bx-menu" id="menu-icon"></div>
+        <section style="font-size:xx-large;">
+            <div class="box" style="background-color: #1A2238;">
+                 <h2><span>Hey</span></h2>
+                <h1>I'm Asim <span>Sheikh</span></h1>
+                <h2>Computer Science <span>Student</span></h2>
+            </div>
+        </section>
 
-		<ul class="navbar">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About Me</a></li>
-			<li><a href="#services">Services</a></li>
-			<li><a href="#portfolio">My Portfolio</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-	</header>
-
-	<!---home--->
-	<section class="home" id="home">
-		<div class="home-text">
-			<h4>Hello</h4>
-			<h1>I'm Asim <span>Sheikh</span></span></h1>
-			<h3>Computer Science <span>Undergraduate</span></h3>
-			
-		</div>
-	</section>
-
-	<!---about--->
-	<section class="about" id="about">
-		<div class="about-img">
-		</div>
-
+    <section style="font-size: larger;">
         <div class="box">
+            <h2><span>About</span> Me</h2>
 
-		<div class="about-text">
-		<h2><span>About</span> Me</h2>
-			
-		<p>Forth year computer science undergraduate at CSUN; Worked as a Coding Instructor at Code Ninjas; Interested in software engineering and development; Certification in Java from Codecademy; Proficient in Java and C++</p>
+            <p>Final year Computer Science student at CSUN; Worked as a Coding Instructor at Code Ninjas; Interested in Software Engineering and Development; Certification in Java from Codecademy; Proficient in Java and C++</p>
         </div>
-			
-		</div>
-	</section>
+    </section>
 
-	<!---services--->
-	<section class="services" id="services">
-		<div class="main-text">
-			<h2>My Services</h2>
-			<h4>Better Design, Better Expericences</h4>
-		</div>
+    <br>
 
-		<div class="services-content">
-			<div class="box">
-				
-				<h3>Mobile App Design</h3>
-				<p>Lorem Ipsum Is Simply Dummy Text Of The Printing Andtypesetting Industry. Lorem Ipsum Has Been The Website Industry's Standard Dummy .</p>
-			</div>
+    <section style="font-size: large;">
+        <div class="box">
+            <h2><span>Work</span> History</h2>
+        
+        
+            <h3>Coding Instructor - 08/2021 to 01/2022</h3>
+            <h3> Code Ninjas - Torrance, California</h3>
 
-			<div class="box">
-				
-				<h3>Website Design</h3>
-				<p>Lorem Ipsum Is Simply Dummy Text Of The Printing Andtypesetting Industry. Lorem Ipsum Has Been The Website Industry's Standard Dummy .</p>
-			</div>
+            <ul>
+                <li style="text-align: left;">Worked with young students to develop their coding foundations using JavaScript in a game development program hosted by Code Ninjas</li>
+                <br>
+                <li style="text-align: left;">Utilized Scratch to teach block building based code to lay critical thinking foundations</li>
+                <br>
+                <li style="text-align: left;">Integrated Microsoft MakeCode into curriculum</li>
+                <br>
+                <li style="text-align: left;">Tested and graded over 100 coding assignments per week and entered grades into Code Ninjas portal</li>
+                <br>
+                <li style="text-align: left;">Communicated with parents to show progress and ensure satisfaction</li>
+            </ul>
+        </div>
+    </section>
 
-			<div class="box">
-				
-				<h3>Video Editing</h3>
-				<p>Lorem Ipsum Is Simply Dummy Text Of The Printing Andtypesetting Industry. Lorem Ipsum Has Been The Website Industry's Standard Dummy .</p>
-			</div>
+    <br>
 
-		</div>
-	</section>
+    <section style="font-size: large;">
+        <div class="box">
+            <h2><span>Education</span></h2>
 
-	<!---portfolio--->
-	<section class="portfolio" id="portfolio">
-		<div class="main-text">
-			<h2>My Portfolio</h2>
-			<h4>Some Of My Distinguished Works</h4>
-		</div>
+            <h3>B.S. Computer Science - 08/2021 to 12/2023</h3>
+            <h3><span>California State University of Northridge</span></h3>
+            <h4>Northridge, California</h4>
 
-		<div class="portfolio-content">
-			<div class="row">
-				<img src="img/portfolio1.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Development</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Mobile app landing design & Services</h3>
-			</div>
+            <ul>
+                <li style="text-align: left;">Prominent coursework: Advanced data structures using Java, Introduction to Computer Architecture and Assembly language programming, and Computer Organization</li>
+                <li style="text-align: left;">Director of Outreach and Events for the Muslim Student Association</li>
+            </ul>
 
-			<div class="row">
-				<img src="img/portfolio2.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Development</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Mobile app landing design & Services</h3>
-			</div>
+            <hr>
 
-			<div class="row">
-				<img src="img/portfolio3.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Development</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Mobile app landing design & Services</h3>
-			</div>
+            <h3>C.S. Transfer - 08/2018 to 06/2021</h3>
+            <h3> <span>El Camino College</span></h3>
+            <h4>Torrance, California</h4>    
+            
+            <ul>
+                <li style="text-align: left;">Prominent coursework: Intro to Programming in C++, Intro to Java, Data Structures and Algorithms in C++, and Advanced C++</li>
+                <li style="text-align: left;">Served as President of the Muslim Student Association for the 2020 to 2021</li>
+            </ul>
 
-			<div class="row">
-				<img src="img/portfolio4.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Development</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Mobile app landing design & Services</h3>
-			</div>
+        <hr>
+        
+            <h3>Learn Java Certificate - 10/2021</h3>
+            <h3> <span>Codecademy</span></h3>
 
-			<div class="row">
-				<img src="img/portfolio5.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Development</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Mobile app landing design & Services</h3>
-			</div>
+            <ul>
+                <li style="text-align: left;">Learned object-oriented programming, access, encapulation, static methods, inheritance and polymorphism in Java</li>
+                
+            </ul>
 
-			<div class="row">
-				<img src="img/portfolio6.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Development</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Mobile app landing design & Services</h3>
-			</div>
+        </div>
+    </section>
 
-		</div>
-	</section>
+    <br>
 
-	<!---contact--->
-	<section class="contact" id="contact">
-		<div class="contact-text">
-			<h2>Contact Me</h2>
-			<h4>Let's Work Together</h4>
-			<p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry</p>
-			<div class="contact-list">
-				<li><a href="#">Los Angeles, California</a></li>
-				<li><a href="#">M.AsimHSheikh@gmail.com</a></li>
-				
-			</div>
-			<div class="contact-icons">
-				<a href="#"><i class='bx bxl-linkedin' ></i></a>
-				<a href="#"><i class='bx bxl-facebook' ></i></a>
-				<a href="#"><i class='bx bxl-behance' ></i></a>
-				<a href="#"><i class='bx bxl-instagram' ></i></a>
-				<a href="#"><i class='bx bxl-dribbble' ></i></a>
-			</div>
-		</div>
+    <section style="font-size: large;">
+    <div class="box">
 
-		<div class="contact-form">
-			<form action="">
-				<input type="" placeholder="Enter Your Name" required>
-				<input type="email" placeholder="Enter Your Email" required>
-				<input type="" placeholder="Enter Your Subject">
-				<textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
-				<input type="submit" value="Submit" class="send">
-			</form>
-		</div>
-	</section>
+        <h2><span>Technical Skills</span></h2>
 
-	<div class="last-text">
-		<p>Developed by Asim Sheikh © 2022</p>
-	</div>
+        <ul>
+            <li style="text-align: left;">Java</li>
+            <li style="text-align: left;">JavaScript</li>
+            <li style="text-align: left;">C++</li>
+            <li style="text-align: left;">Bash</li>
+            <li style="text-align: left;">HTML/CSS</li>
+            <li style="text-align: left;">Excel</li>
+            
+        </ul>
 
-	<!---scroll-top--->
-	<a href="#" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
+        <h2><span>Tools Utilized</span></h2>
 
-	<script src="https://unpkg.com/scrollreveal"></script>
+        <ul>
+            <li style="text-align: left;">Git/GitHub</li>
+            <li style="text-align: left;">Xcode</li>
+            <li style="text-align: left;">IntelliJ</li>
+            <li style="text-align: left;">Visual Studio Code</li>
+            <li style="text-align: left;">NetBeans</li>
+            <li style="text-align: left;">Eclipse</li>
+            
+        </ul>
 
-	<!---custom js link--->
-	<script type="text/javascript" src="js/script.js"></script>
+        <h2><span>Soft Skills</span></h2>
 
-</body>
+        <ul>
+            <li style="text-align: left;">Leadership Experience</li>
+            <li style="text-align: left;">Quick Learner</li>
+            <li style="text-align: left;">Effective communication and problem-solving</li>
+        </ul>
+
+    </div>
+    </section>
+
+    
+        
+
+    </body>
+
 </html>
