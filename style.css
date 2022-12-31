@@ -4,10 +4,10 @@
 	--main-color: #9DAAF2;
 	--second-color: #FFF;
 	--other-color: #12141c;
-	--h1-font: 8rem;
-	--h2-font: 6rem;
-	--h3-font: 4rem;
-	--p-font: 2rem;
+	--h1-font: 16rem;
+	--h2-font: 12rem;
+	--h3-font: 8rem;
+	--p-font: 4rem;
 	font-family: 'Quicksand', sans-serif;
 	scroll-behavior: smooth;
 	text-align: justify;
@@ -22,10 +22,12 @@ body{
 .Asim-img {
 	width: 300px;
 	height: auto;
+	border-radius: 5%;
+	
 }
 
 .content {
-	max-width: 500px;
+	max-width: 640px;
 	margin: auto;
 }
 
