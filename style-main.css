@@ -9,6 +9,8 @@
 	--h3-font: 4rem;
 	--p-font: 2rem;
 	font-family: 'Quicksand', sans-serif;
+	scroll-behavior: smooth;
+	text-align: justify;
 }
 
 body{
@@ -37,4 +39,26 @@ span{
 	cursor: pointer;
 
 }
+
+.go-top-btn{
+	position: fixed;
+	bottom: 35px;
+	right: 35px;
+	border-radius: 50%;
+	cursor: pointer;
+	height: 50px;
+	width: 50px;
+	background: #9DAAF2;
+	border: 3px solid #9DAAF2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.go-top-btn img{
+	width: 25px;
+	height: 25px;
+
+}
+
 
