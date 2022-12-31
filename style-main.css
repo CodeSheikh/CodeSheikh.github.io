@@ -42,17 +42,20 @@ span{
 
 .go-top-btn{
 	position: fixed;
-	bottom: 35px;
-	right: 35px;
+	bottom: 20px;
+	right: 20px;
 	border-radius: 50%;
 	cursor: pointer;
 	height: 50px;
 	width: 50px;
 	background: #9DAAF2;
 	border: 3px solid #9DAAF2;
-	display: none;
+	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.go-top-btn:active{
+	background: #8e9df2;
 }
 
 .go-top-btn img{
