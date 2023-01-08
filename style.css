@@ -1,4 +1,7 @@
 :root{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 	--bg-color: #1A2238;
 	--text-color: #FFFFFF;
 	--main-color: #9DAAF2;
@@ -26,6 +29,7 @@ body{
 	text-decoration: none;
 	padding: 14px 12px;
 	font-size: 20px;
+	position: fixed;
 }
 
 .topNav a:hover {
@@ -46,6 +50,10 @@ span{
     color: var(--main-color);
 }
 
+span1{
+	color: #1A2238;
+}
+
 .box{
 	background-color: #12141c;
 	padding: 50px;
@@ -61,7 +69,7 @@ span{
 .box1{
 	padding: 10px;
 	box-sizing:border-box;
-	text-align: right;
+	text-align: left;
   	width: 600px;
   	border: 10px;
   	margin: 10px;
@@ -93,3 +101,13 @@ span{
 
 }
 
+#BGimg img {
+	width: 90rem;
+	height: 56rem;
+	position: absolute;
+	top: 75;
+	left: 0;
+
+	
+
+}
