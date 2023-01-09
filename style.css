@@ -22,19 +22,23 @@ body{
 	text-align: center;
 }
 
-.topNav a {
-	float: right;
-	color:#f2f2f2;
-	text-align: right;
-	text-decoration: none;
-	padding: 14px 12px;
-	font-size: 20px;
-	position: fixed;
+.container2 {
+	position: relative;
 }
 
-.topNav a:hover {
-	color: #9DAAF2;
+.box1{
+position: absolute;
+padding: 10px;
+box-sizing:border-box;
+text-align: center;
+width: 600px;
+border: 10px;
+margin: 10px;
+cursor: pointer;
+	
 }
+
+
 
 .content {
 	max-width: 640px;
@@ -51,7 +55,7 @@ span{
 }
 
 span1{
-	color: #1A2238;
+	color:#9DAAF2;
 }
 
 .box{
@@ -66,16 +70,8 @@ span1{
 
 }
 
-.box1{
-	padding: 10px;
-	box-sizing:border-box;
-	text-align: left;
-  	width: 600px;
-  	border: 10px;
-  	margin: 10px;
-	cursor: pointer;
 
-}
+
 
 #buttonTop{
 	position: fixed;
@@ -105,9 +101,42 @@ span1{
 	width: 90rem;
 	height: 56rem;
 	position: absolute;
-	top: 75;
-	left: 0;
+}
 
+.bg-img {
+	/* The image used */
+	background-image: url("BG-img.JPEG");
+  
+	min-height: 900px;
+  
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  
+	/* Needed to position the navbar */
+	position: right;
 	
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+	position: absolute;
+	margin: 20px;
+	width: auto;
+  }
+  
+  /* The navbar */
+  .topNav a {
+	color: #12141c;;
+	text-align: right;
+	text-decoration: none;
+	padding: 14px 12px;
+	font-size: 20px;
+	float: right;
 
 }
+
+.topNav a:hover {
+	color: #9DAAF2;
+} 
