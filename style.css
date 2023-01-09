@@ -30,15 +30,21 @@ body{
 position: absolute;
 padding: 10px;
 box-sizing:border-box;
-text-align: center;
+text-align: left;
 width: 600px;
 border: 10px;
 margin: 10px;
 cursor: pointer;
 	
 }
-
-
+#asim-photo {
+	width: 35rem;
+	height: 37rem;
+	position:absolute;
+	top: 115px;
+	left: 125px;
+	border-radius: 10%;
+}
 
 .content {
 	max-width: 640px;
@@ -96,39 +102,9 @@ span1{
 	height: 25px;
 
 }
-
-#BGimg img {
-	width: 90rem;
-	height: 56rem;
-	position: absolute;
-}
-
-.bg-img {
-	/* The image used */
-	background-image: url("BG-img.JPEG");
-  
-	min-height: 900px;
-  
-	/* Center and scale the image nicely */
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-  
-	/* Needed to position the navbar */
-	position: right;
-	
-  }
-  
-  /* Position the navbar container inside the image */
-  .container {
-	position: absolute;
-	margin: 20px;
-	width: auto;
-  }
-  
   /* The navbar */
   .topNav a {
-	color: #12141c;;
+	color: #FFFFFF;;
 	text-align: right;
 	text-decoration: none;
 	padding: 14px 12px;
