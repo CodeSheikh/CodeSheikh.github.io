@@ -39,7 +39,7 @@ cursor: pointer;
 }
 #asim-photo {
 	width: 35rem;
-	height: 37rem;
+	height: 39rem;
 	position:absolute;
 	top: 115px;
 	left: 125px;
@@ -75,9 +75,6 @@ span1{
 	cursor: pointer;
 
 }
-
-
-
 
 #buttonTop{
 	position: fixed;
