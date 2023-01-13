@@ -76,29 +76,6 @@ span1{
 
 }
 
-#buttonTop{
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	border-radius: 50%;
-	cursor: pointer;
-	height: 50px;
-	width: 50px;
-	background: #9DAAF2;
-	border: 3px solid #9DAAF2;
-	display:flex;
-	justify-content: center;
-	align-items: center;
-}
-#buttonTop:active{
-	background: #6778cb;
-}
-
-#buttonTop img{
-	width: 25px;
-	height: 25px;
-
-}
   /* The navbar */
   .topNav a {
 	color: #FFFFFF;;
@@ -113,3 +90,24 @@ span1{
 .topNav a:hover {
 	color: #9DAAF2;
 } 
+
+.scroll-container {
+	position: absolute;
+	top: 0;
+	right:0;
+    height: 100%;
+}
+
+  /*fixed to right bottom of page*/
+  .scroll-container img {
+	position: fixed;
+	bottom: 1.5em;
+	right: 1em;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	background: #9DAAF2;
+	border: 3px solid #9DAAF2;
+	border-radius: 25%;
+	display: flex;
+  }
