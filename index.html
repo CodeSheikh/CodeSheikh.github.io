@@ -14,6 +14,26 @@
         <!---custom css link--->
 	<link rel="stylesheet" href="style.css" />
 
+    <script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+	<script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/glegFU6XjzxH3ceg/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+					alert("Form Data Submitted :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+	</script>
+
     </head>
 
     <body>
@@ -172,32 +192,28 @@
         <div id="Contact" class="box">
             <h2><span>Contact</span> Me</h2>
 
-            <form action="m.asimhsheikh@gmail.com" method="post" enctype="text/plain">
-                
-                <div class="inputBox">
-                    <p>Full Name</p>
-                    <input type="text" name="" required = "required">
-                    
-                </div>
-
-                <div class="inputBox">
-                    <p>Email</p>
-                    <input type="text" name="" required = "required">
-                    
-                </div>
-
-                <div class="inputBox">
-                    <p>Type your message...</p>
-                    <textarea required="required"></textarea>
-                    
-                </div>
-
-                <div class="inputBox">
-                    <input type="submit" name="" value="Send">
-                </div>
-
-            </form>
-
+            <form id="myForm">
+                <label>Name</label>
+                <br>
+                <br>
+                <input name="full_name" />
+                <br>
+                <br>
+                <label>Email</label>
+                <br>
+                <br>
+                <input name="email" />
+                <br>
+                <br>
+                <label>Type your message...</label>
+                <br>
+                <br>
+                <textarea name="message">
+                </textarea>
+                <br/>
+                <br/>
+              </form>
+              <button onclick="SubForm()">Submit</button>
 
         </div>
 
